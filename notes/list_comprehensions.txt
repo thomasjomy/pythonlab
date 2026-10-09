@@ -1,0 +1,3 @@
+Comprehensions create new collections concisely. They are often clearer and faster than manual loops when used for straightforward transformations.
+List comprehensions express map and filter in one readable line; keep the expression simple
+

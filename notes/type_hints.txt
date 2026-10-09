@@ -1,0 +1,7 @@
+ Type Hints for Clarity
+ ----------------------
+ Python uses dynamic typing: a variable’s type is determined at runtime by the value it holds, not declared in advance.
+ This differs from statically typed languages such as Java or C++, where variable types are fixed at compile time and enforced by the compiler.
+ In Python, you can reassign a variable to a value of any type, and type errors often surface at runtime rather than at compile time.
+ Type hints address this gap by documenting expected types without enforcing them at runtime.
+ They don’t change runtime behavior but help readers and tools understand expected inputs and outputs:

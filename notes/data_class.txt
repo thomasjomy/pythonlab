@@ -1,0 +1,12 @@
+Although NamedTuple appears in the class statement as a superclass, it’s actually not. typing.
+NamedTuple uses the advanced functionality of a metaclass2 to customize the creation of the user’s class.
+
+
+the dataclass decorator supports PEP 526 syntax to declare instance attributes.
+The decorator reads the variable annotations and automatically generates methods for your class.
+The @dataclass decorator does not depend on inheritance or a metaclass, so it should not interfere with your own use of these mechanisms.
+
+Sequences are iterables
+Whenever Python needs to iterate over an object x, it automatically calls iter(x)
+iter() creates an iterator that tries to fetch items by index, starting from 0 (zero).
+That is why all Python sequences are iterable: by definition, they all implement __getitem__

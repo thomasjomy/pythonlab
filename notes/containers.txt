@@ -1,0 +1,10 @@
+Core Containers
+---------------
+Python offers four core container types that cover most everyday needs
+Choose based on ordering, mutability, and how you access elements, either by position or by key.
+A list is an ordered, mutable sequence and works well for iterative building and transformations.
+A tuple is ordered but immutable, which makes it useful for fixed records or function returns.
+A dict maps keys to values and provides fast lookup when you need named fields or keyed access.
+A set is an unordered collection of unique items and is useful for membership tests and deduplication.
+
+

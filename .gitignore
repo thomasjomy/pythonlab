@@ -1,0 +1,38 @@
+# User-specific files (local workspace layouts, window positions, etc.)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionary.xml
+
+# Sensitive data / Cloud deployment details
+.idea/shelf/
+
+# AWS User Agreement / local configurations
+.idea/amazonq.config.json
+
+# Log files
+.idea/vcs.xml
+.idea/httpRequests/
+
+# PyCharm multi-project configuration
+.idea/misc.xml
+.idea/modules.xml
+.idea/encodings.xml
+*.iml
+
+# OPTIONAL: Uncomment the following line if you work entirely alone 
+# and want to ignore the entire PyCharm metadata folder.
+.idea/
+
+# --- Python Environment & Build Defaults ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+env/
+build/
+dist/
+*.egg-info/ 
